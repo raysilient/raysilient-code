@@ -45,10 +45,13 @@
             font-weight: bold;
             color: #fff;
             text-decoration: none;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            /* background: linear-gradient(45deg, #ff6b6b, #4ecdc4); */
+            background: linear-gradient(45deg, #fff);
+            
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+
         }
 
         .nav-links {
@@ -65,13 +68,14 @@
         }
 
         .nav-links a:hover {
-            color: #4ecdc4;
+            color: #a55d35;
         }
 
         /* Hero Section */
         .hero {
             height: 100vh;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+            background: linear-gradient(to right,#091f46,#37729c,#7699ae,#e9e4de,#efbf6a,#a55d35);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -107,6 +111,7 @@
             font-size: 3.5rem;
             margin-bottom: 1rem;
             animation: slideInUp 1s ease-out;
+            color: black;
         }
 
         .hero .subtitle {
@@ -114,11 +119,13 @@
             margin-bottom: 2rem;
             opacity: 0.9;
             animation: slideInUp 1s ease-out 0.2s both;
+            color: black;
         }
 
         .cta-button {
             display: inline-block;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #a55d35, #37729c);
+            /* background: linear-gradient(to right,#091f46,#37729c,#7699ae,#e9e4de,#efbf6a,#a55d35); */
             color: white;
             padding: 15px 40px;
             text-decoration: none;
@@ -158,13 +165,17 @@
             padding: 0 2rem;
         }
 
+
         .section-title {
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 3rem;
-            color: #333;
+            color: #fff;
             position: relative;
         }
+        h2.section-title.scroll-animation.visible.custom-title {
+    color: black;
+}
 
         .section-title::after {
             content: '';
@@ -174,7 +185,8 @@
             transform: translateX(-50%);
             width: 80px;
             height: 4px;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #a55d35, #37729c);
+            /* background: linear-gradient(45deg, #ff6b6b, #4ecdc4); */
             border-radius: 2px;
         }
 
@@ -202,7 +214,8 @@
             left: 0;
             width: 100%;
             height: 4px;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            /* background: linear-gradient(45deg, #ff6b6b, #4ecdc4); */
+            background: linear-gradient(45deg, #a55d35, #37729c);
         }
 
         .service-card:hover {
@@ -213,7 +226,8 @@
         .service-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            /* background: linear-gradient(45deg, #ff6b6b, #4ecdc4); */
+            background: linear-gradient(45deg, #a55d35, #37729c);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -233,7 +247,9 @@
         /* Who We Work With Section */
         .clients {
             padding: 100px 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(45deg, #a55d35, #37729c);
+            /* background: linear-gradient(to right,#091f46,#37729c,#7699ae,#e9e4de,#efbf6a,#a55d35); */
+            /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
             color: white;
         }
 
@@ -290,7 +306,8 @@
             width: 80px;
             height: 80px;
             margin: 0 auto 1rem;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #a55d35, #37729c);
+            /* background: linear-gradient(45deg, #ff6b6b, #4ecdc4); */
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -315,7 +332,7 @@
 
         .footer-section h3 {
             margin-bottom: 1rem;
-            color: #4ecdc4;
+            color: #a55d35;
         }
 
         .footer-section p, .footer-section a {
@@ -325,7 +342,7 @@
         }
 
         .footer-section a:hover {
-            color: #4ecdc4;
+            color: #a55d35;
         }
 
         .footer-bottom {
@@ -398,7 +415,7 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title scroll-animation">What We Do</h2>
+            <h2 class="section-title scroll-animation custom-title">What We Do</h2>
             <div class="services-grid">
                 <div class="service-card scroll-animation">
                     <div class="service-icon">
@@ -428,7 +445,7 @@
                     <div class="service-icon">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h3>IAYP Enablement</h3>
+                    <h3>IAYP & IB CAS Program Support</h3>
                     <p>We help IAYP-integrated schools by coordinating all four pillars of the International Award for Young People through our curated partner network.</p>
                 </div>
             </div>
@@ -520,7 +537,7 @@
                 <div class="footer-section">
                     <h3>Raysilient</h3>
                     <p>Empowering brands through digital influence, lifestyle content & community engagement.</p>
-                    <p style="margin-top: 1rem; font-style: italic; color: #4ecdc4;">"Let's build brands where trust lives - in communities, culture, and conversations."</p>
+                    <p style="margin-top: 1rem; font-style: italic; color: #a55d35;">"Let's build brands where trust lives - in communities, culture, and conversations."</p>
                 </div>
                 <div class="footer-section">
                     <h3>Services</h3>
